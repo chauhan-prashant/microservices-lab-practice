@@ -10,40 +10,40 @@ server:
 spring:
   profiles: subject
   application:
-    name: lab-4-eureka-subject
+    name: lab-5-eureka-subject
 words: I,You,He,She,It
 
 ---
 spring:
   profiles: verb
   application:
-    name: lab-4-eureka-verb
+    name: lab-5-eureka-verb
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
   application:
-    name: lab-4-eureka-article  
+    name: lab-5-eureka-article  
 words: a,the
 
 ---
 spring:
   profiles: adjective
   application:
-    name: lab-4-eureka-adjective
+    name: lab-5-eureka-adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
   application:
-    name: lab-4-eureka-noun
+    name: lab-5-eureka-noun
 words: boat,book,vote,seat,backpack,partition,groundhog  
 ---
 spring:
   profiles: sentence
   application:
-    name: lab-4-eureka-sentence  
+    name: lab-5-eureka-sentence  
 server:
   port: 8021
