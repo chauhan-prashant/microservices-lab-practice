@@ -39,7 +39,15 @@ spring:
   profiles: noun
   application:
     name: lab-5-eureka-noun
-words: boat,book,vote,seat,backpack,partition,groundhog  
+words: boat,book,vote,seat,backpack,partition,groundhog
+
+---
+spring:
+  profiles: cold-noun
+  application:
+    name: lab-5-eureka-noun #note here the application name should be same for replicas
+words: icicle,refrigerator,blizzard,snowball
+
 ---
 spring:
   profiles: sentence
