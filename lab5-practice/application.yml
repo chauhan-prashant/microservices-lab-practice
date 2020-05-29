@@ -55,3 +55,8 @@ spring:
     name: lab-5-eureka-sentence  
 server:
   port: 8021
+feignclient:
+  subject: lab-5-eureka-subject
+  noun: lab-5-eureka-noun
+  adjective: lab-5-eureka-adjective
+  verb: lab-5-eureka-verb
